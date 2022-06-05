@@ -34,7 +34,7 @@
                   <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="150">
                   {{ end }}
                   {{ if $footerContact.street_address }}<p><a href="https://g.page/Launch-and-Go?share" target="_blank">{{ $footerContact.street_address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</a></p>{{ end }}
-                  <p><a href="https://g.page/Launch-and-Go?share" target="_blank">7094 Peachtree Industrial Blvd, Suite 201, Norcross, GA 30071</a></p>
+                  <p><a href="https://g.page/Launch-and-Go?share" target="_blank">1800 Phoenix Blvd, Suite 128, Atlanta, GA 30349</a></p>
                   {{ if $footerContact.phone }}<a href="tel:{{ $footerContact.phone }}">Phone: {{ $footerContact.phone }}</a>{{ end }}<br>
                   {{ if $footerContact.email }}<a href="mailto:{{ $footerContact.email }}">Email: {{ $footerContact.email }}</a>{{ end }}
                   {{ if .Site.Data.home.footer.footer_text }}<p>{{ .Site.Data.home.footer.footer_text | markdownify }}</p>{{ end }}
