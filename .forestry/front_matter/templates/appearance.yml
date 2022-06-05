@@ -1,0 +1,36 @@
+---
+label: Appearance
+hide_body: false
+fields:
+- name: branding
+  type: field_group
+  config: {}
+  fields:
+  - name: logo
+    type: file
+    config:
+      maxSize: 2
+    label: Logo
+  - name: site_title
+    type: text
+    config:
+      required: false
+    label: Site Title
+  - name: favicon
+    type: file
+    config:
+      maxSize: 64
+    label: Favicon
+  label: Branding
+- name: page_design
+  type: field_group
+  config: {}
+  fields:
+  - name: banner
+    type: file
+    config:
+      maxSize: 64
+    label: Banner
+  label: Page Design
+pages:
+- data/appearance.yaml

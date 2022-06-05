@@ -1,0 +1,44 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: ''
+webhook_url: 
+sections:
+- type: directory
+  path: content/locations
+  label: Locations
+  create: documents
+  match: "**/*"
+  templates:
+  - locations
+- type: document
+  path: data/profile.yaml
+  label: Profile
+- type: document
+  path: data/appearance.yaml
+  label: Appearance
+- type: document
+  path: data/home.yaml
+  label: Home Design
+- type: directory
+  path: content
+  label: Pages
+  create: documents
+  match: "*"
+  templates:
+  - pages
+upload_dir: darrin-flanagan/launch-and-go-workspace
+public_path: https://res.cloudinary.com/hungryram19/image/upload
+front_matter_path: ''
+use_front_matter_path: 
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.71.1
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --renderToDisk -d public
+version: 0.71.1

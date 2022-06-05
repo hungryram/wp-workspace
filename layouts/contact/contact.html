@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{ $footerContact := .Site.Data.profile.primary_contact }}
+{{ $optBlock := dict "display" "block" }}
+
+<div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" uk-grid>
+            <div class="uk-card uk-width-3-5@s contact__form">
+                
+
+                <h2>Send an email</h2>
+                <p>Have any questions or inquiries? Send us an email and our team will get back to you as soon as possible.</p>
+            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
+                <input name="bot-field" type="hidden" />
+                <input type="hidden" name="Subject" value="Website Contact Form">
+                <div class="uk-width-1-2@s">
+                    <input class="uk-input" type="text" placeholder="Name*" name="Name" required>
+                </div>
+                <div class="uk-width-1-2@s">
+                    <input class="uk-input" type="text" placeholder="Phone*" name="Phone" required>
+                </div>
+                <div class="uk-width-1-1">
+                    <input class="uk-input" type="text" placeholder="Email*" name="Email" required>
+                </div>
+                <div class="uk-width-1-1">
+                    <textarea class="uk-textarea" rows="5" placeholder="Your Message" name="Message"></textarea>
+                </div>
+                <div class="uk-width-1-1">
+                    <button class="uk-button uk-button-secondary" style="width:100%;padding: 8px;">Submit</button>
+                </div>
+                <div class="uk-width-1-1">
+                        <p>By submitting the form with your information above you are agreeing to our <a style="color:#19202A" href="/legal/terms-and-conditions">Terms and Conditions</a> and <a style="color:#19202A" href="/legal/privacy-policy">Privacy Policy</a></p>
+                </div>
+            </form>
+
+
+            </div>
+            <div class="uk-card uk-width-expand@s">
+                <div class="uk-margin-medium-bottom">
+                    <h2>Get in touch</h2>
+                    <p>Have any inquiries or want to visit our locations? Get in touch with us today.</p>
+                </div>
+                <div>
+                    <ul class="uk-list">
+                        <li><a href="mailto:{{ $footerContact.email }}" class="uk-link-text">{{ $footerContact.email }}</a></li>
+                        <li><a href="tel:{{ $footerContact.phone }}" class="uk-link-text">{{ $footerContact.phone }}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

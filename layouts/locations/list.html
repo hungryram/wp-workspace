@@ -1,0 +1,22 @@
+{{ define "main" }}
+    <div class="uk-section">
+        <div class="uk-container uk-container">
+            <div class="uk-child-width-1-2@s" uk-grid>
+                {{ range .Pages }}
+                <div>
+                    <a href="{{ .Permalink }}">
+                        <div class="uk-cover-container">
+                            <img src="{{ .Params.image }}" alt="" uk-cover>
+                            <canvas height="300"></canvas>
+                            <div class="uk-overlay-primary uk-position-cover"></div>
+                            <div class="uk-overlay uk-position-center uk-light">
+                                <h2>{{ .Title }}</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            {{ end }}
+            </div>
+        </div>
+    </div>
+{{ end }}

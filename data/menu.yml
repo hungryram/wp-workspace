@@ -1,0 +1,14 @@
+
+menu:
+  - name: Home
+    link: /
+  - name: Locations
+    link: /locations
+  - name: Login
+    link: 
+    menu:
+      - name: Peachtree Login
+        link: https://launchandgoworkspace.app.proximity.space/
+      - name: Norcross Login
+        link: https://synergyworkspace.app.proximity.space/login/true
+        menu:

@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://launchandgoworkspace.netlify.app/*"
+  to = "https://www.launchandgoworkspace/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+  [[redirects]]
+  from = "https://launchandgoworkspace.com"
+  to = "https://www.launchandgoworkspace.com"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect

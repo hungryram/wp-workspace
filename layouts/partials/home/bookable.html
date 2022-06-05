@@ -1,0 +1,23 @@
+{{ $bookable := .Site.Data.home.bookable_spaces }}
+<div class="uk-section uk-section-large" style="background: #fff;">
+  <div class="uk-container uk-container-large">
+    <div class="uk-margin-large-bottom">
+      <h2 class="uk-text-bold">{{ .Site.Data.home.bookable_spaces.heading }}</h2>
+      <p>{{ .Site.Data.home.bookable_spaces.body_text | markdownify }}</p>
+    </div>
+    <div class="uk-child-width-1-4@s uk-grid-small" uk-grid>
+      {{ range $bookable.bookable_spaces }}
+      <div>
+        <div class="card" style="height:100%;position:relative;">
+            <header class="card-header">
+              <h3 class="uk-h4 uk-text-bold uk-white uk-padding-small uk-margin-remove">{{ .heading }}</h3>
+            </header>
+            <div class="uk-padding-small">
+              {{ .subtitle | markdownify }}
+            </div>
+          </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

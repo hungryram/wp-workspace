@@ -1,0 +1,22 @@
+baseURL = "https://www.launchandgoworkspace.com/"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableRobotsTXT = "true"
+languageCode = "en-us"
+[[menu.main]]
+name = "Norcross Login"
+parent = "Login"
+url = "https://synergyworkspace.app.proximity.space/login/true"
+weight = 2
+[[menu.main]]
+name = "Peachtree Login"
+parent = "Login"
+url = "https://launchandgoworkspace.app.proximity.space/"
+weight = 1
+[[menu.main]]
+name = "Login"
+url = "https://members.launchandgoworkspace.com/login/true"
+weight = 4
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1

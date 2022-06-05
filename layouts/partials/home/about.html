@@ -1,0 +1,29 @@
+{{ $intro := .Site.Data.home.introduction }}
+
+
+<div class="uk-section uk-section-large" style="background: url(/assets/hexbg.jpg) no-repeat center">
+    <div class="uk-container uk-container-large">
+        <div class="uk-child-width-1-2@s uk-grid-large" uk-grid>
+            <div>
+                <h2>{{ $intro.heading | markdownify }}</h2>
+                {{ $intro.body | markdownify }}
+                <ul class="uk-list uk-margin-large-top" style="columns:2">
+                    {{ range $intro.amenities }}
+                        <li><svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler icon-tabler-check" width="15" height="15" viewBox="0 0 24 24" stroke-width="2" stroke="#00697A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5 12l5 5l10 -10" />
+                          </svg> {{ . }}</li>
+                    {{ end }}
+                </ul>
+                <a href="/locations" class="uk-button uk-button-secondary">View Locations</a>
+            </div>
+            <div>
+                <div class="uk-text-center">
+                    {{ if $intro.image }}
+                    <img src="{{ $intro.image }}" alt="{{ .Site.Data.profile.company_name }}" style="box-shadow:7px 15px 20px 0px #aeaeae">
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

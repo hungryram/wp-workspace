@@ -1,0 +1,80 @@
+{{ $branding := .Site.Data.appearance.branding }}
+{{ $mainMenu := .Site.Data.menu }}
+
+    <div class="uk-visible@m" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+      <nav class="uk-navbar-container uk-navbar-transparent"{{ if not .IsHome }} style="border-bottom: 1px solid rgb(213 213 213 / 20%);"{{ end }}>
+          <div class="uk-container uk-container-large" style="padding-top:10px;padding-bottom:10px;">
+              <div uk-navbar>
+                  <div class="uk-navbar-left">
+                      <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }} logo" width="130"></a>
+  
+                  </div>
+                  <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        {{ range $mainMenu.menu }}
+                        <li>
+                            {{ if .menu }}
+                            <a href="#">{{ .name }}<span class="uk-margin-small-left" uk-icon="chevron-down"></span></a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    {{ range .menu }}
+                                    <li class="uk-active"><a href="{{ .link | absURL }}">{{ .name }}</a></li>
+                                    {{ end }}
+                                </ul>
+                            </div>
+                            {{ else }}
+                            <a href="{{ .link | absURL }}">{{ .name }}</a>
+                            {{ end }}
+                        </li>
+                        {{ end }}
+
+                    </ul>
+                  </div>
+  
+              </div>
+          </div>
+      </nav>
+  </div>
+  
+  
+<!-- mobile -->
+<div uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; cls-inactive: top: 400">
+    <nav class="uk-navbar uk-navbar-container uk-hidden@m uk-box-shadow-small" style="padding: 5px 15px;" uk-navbar="dropbar: true;mode: click">
+        <div class="uk-navbar-left">
+            <a href="{{ .Site.BaseURL }}">
+                <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="100">
+            </a>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#" uk-toggle>
+                        <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="navbar-toggle-icon"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg>
+                    </a>
+                    <div class="uk-navbar-dropdown" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-center;mode:click">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            {{ range $mainMenu.menu }}
+                            <li>
+                                {{ if .menu }}
+                                <a href="#">{{ .name }}<span class="uk-margin-small-left" uk-icon="chevron-down"></span></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        {{ range .menu }}
+                                        <li class="uk-active"><a href="{{ .link | absURL }}">{{ .name }}</a></li>
+                                        {{ end }}
+                                    </ul>
+                                </div>
+                                {{ else }}
+                                <a href="{{ .link | absURL }}">{{ .name }}</a>
+                                {{ end }}
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    </div>

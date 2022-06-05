@@ -1,0 +1,158 @@
+/* TYPOGRAPHY */
+
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat,sans-serif!important;
+    font-weight: 600!important;
+}
+
+html body {
+    font-family: Mukta,sans-serif;
+}
+
+h2 strong {
+    color: #f4b221;
+}
+
+.uk-white {
+    color: #fff!important;
+}
+
+.uk-black {
+    color: #000;
+}
+
+body em {
+    color: inherit;
+}
+
+.md__content a {
+    color: #f4b221;
+}
+
+.md__content a:hover {
+    color: #f4b221;
+}
+
+h1.uk-text-medium-bold {
+    font-weight: 600;
+}
+
+/* NAVBAR */
+
+ul.uk-navbar-nav>li>a {
+    color: #fff;
+}
+
+.uk-visible\@s.uk-sticky.uk-sticky-below.uk-sticky-fixed a {
+    color: #000;
+}
+
+/* FORM */
+
+.contact__form input.uk-input,
+.contact__form textarea.uk-textarea {
+    -webkit-appearance: none;
+    border: 1px solid rgb(192, 192, 192);
+    color: #000;
+}
+
+input.uk-input,
+textarea.uk-textarea {
+    background: 0 0;
+    border-bottom: 1px solid #fff;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 0;
+    color: #fff;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+/* OVERWRITE */
+
+div.uk-overlay-primary {
+    background: rgba(33,33,33,.4);
+}
+
+/* ABOUT */
+
+@media screen and (min-width:768px){
+    div.about__container ul {
+        columns: 2;
+    }
+}
+
+div.about__container ul li {
+    margin-top: 8px;
+}
+
+/* MEMBER OPTIONS */
+
+header.card-header {
+    background: #00697A;
+}
+
+.card-header {
+    background-color: transparent;
+    align-items: stretch;
+    box-shadow: 0 0.125em 0.25em rgb(10 10 10 / 10%);
+    display: flex;
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: 1px solid #ededed;
+    align-items: stretch;
+    display: flex;
+}
+
+.card-footer-item:not(:last-child) {
+    border-right: 1px solid #ededed;
+}
+
+footer.card-footer p {
+    background: #f4f4f4;
+}
+
+.card-footer-item {
+    align-items: center;
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: 0.75rem;
+}
+
+.card-content {
+    background-color: transparent;
+    padding: 1.5rem;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+    color: #4a4a4a;
+    max-width: 100%;
+    position: relative;
+}
+
+footer.card-footer a {
+    background: #f4b221;
+    color: #fff;
+}
+
+/* FEAUTURED */
+
+div.featured__container {
+    background: #F4B221;
+    margin-top: 100px;
+    padding: 25px;
+}
+
+/* FOOTER */
+
+footer.footer {
+    background: #0E0E0C;
+}

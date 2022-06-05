@@ -1,0 +1,30 @@
+{{ $hero := .Site.Data.home.hero }}
+{{ $heroc1 := .Site.Data.home.hero.hero_footer.first_column }}
+{{ $heroc2 := .Site.Data.home.hero.hero_footer.second_column }}
+<div class="uk-position-top" style="z-index: 1;">
+    {{ partial "global/navbar" . }}
+</div>
+<div class="uk-section-default uk-section uk-flex uk-flex-middle" uk-height-viewport style="background:url(https://res.cloudinary.com/hungryram19/image/upload/v1639462994/darrin-flanagan/launch-and-go-workspace/img_0190-1.jpg) no-repeat center;background-size:cover">
+    <div class="uk-overlay-primary uk-position-cover"></div>
+    <div class="uk-width-1-1 uk-light">
+        <div class="uk-container uk-container-large">
+            <div class="uk-grid-large uk-grid-margin-large" uk-grid>
+                <div class="uk-grid-item-match uk-flex-middle uk-width-1-2@m uk-first-column">
+                    <div class="uk-panel uk-width-1-1">
+                        <div class="uk-h6 accent uk-text-left@m uk-text-center"></div>
+                        <h1 class="uk-width-xlarge uk-text-left@m uk-text-center uk-text-medium-bold">{{ $hero.heading }}</h1>
+                        <div class="uk-panel uk-margin uk-width-xlarge uk-margin-auto-right@m uk-margin-remove-left@m uk-margin-auto uk-text-left@m uk-text-center">
+                           <p>{{ $hero.body }}</p>
+                        </div>
+                        <div class="uk-margin-large uk-text-left@m uk-text-center">
+                            <a class="uk-button uk-button-primary" href="#membership" target="_blank" uk-scroll>
+                                {{ $heroc2.link_text }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

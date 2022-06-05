@@ -1,0 +1,21 @@
+  
+{{ partial "global/head" . }}
+<div class="uk-position-top">
+    {{ partial "global/navbar" . }}
+</div>
+    <div class="uk-section uk-section-large" style="background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url({{ .Site.Data.appearance.page_design.banner }}) no-repeat center; background-size: cover;">
+        <div class="uk-container uk-container-large uk-text-center uk-margin-xlarge-top">
+            <div>
+                <div>
+                    <h1 class="uk-white">{{ .Title }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<main>
+{{ block "main" . }}
+
+{{ end }}
+</main>
+{{ partial "global/footer" . }}

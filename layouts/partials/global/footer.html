@@ -1,0 +1,74 @@
+{{ $footerSocial := .Site.Data.profile.social_accounts }}
+{{ $footerContact := .Site.Data.profile.primary_contact }}
+<footer class="footer">
+  <div class="uk-section">
+      <div class="uk-container uk-container-large">
+          <div class="uk-grid-large" uk-grid>
+              <div class="footer-form uk-width-expand@s uk-width-1-2@s">
+                <h2 class="uk-text-bold uk-white">We’d love to hear from you!</h2>
+                <p>Send us a message, and we’ll get back to you within 48 hours.</p>
+                  <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
+                      <input name="bot-field" type="hidden" />
+                      <input type="hidden" name="Subject" value="Website Contact Form">
+                      <div class="uk-width-1-2@s">
+                          <input class="uk-input" type="text" placeholder="Name" name="Name">
+                      </div>
+                      <div class="uk-width-1-2@s">
+                          <input class="uk-input" type="text" placeholder="Phone" name="Phone">
+                      </div>
+                      <div class="uk-width-1-1">
+                          <input class="uk-input" type="text" placeholder="Email" name="Email">
+                      </div>
+                      <div class="uk-width-1-1">
+                          <textarea class="uk-textarea" rows="5" placeholder="Your Message" name="Message"></textarea>
+                      </div>
+                      <div class="uk-width-1-1">
+                          <button class="uk-button uk-button-secondary">Submit</button>
+                      </div>
+                  </form>
+              </div>
+              <div class="uk-width-1-2@s uk-grid-large footer-text uk-light">
+                <div>
+                  <h2 class="uk-text-bold uk-white">Contact</h2>
+                  {{ if .Site.Data.appearance.branding.logo }}
+                  <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="150">
+                  {{ end }}
+                  {{ if $footerContact.street_address }}<p><a href="https://g.page/Launch-and-Go?share" target="_blank">{{ $footerContact.street_address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</a></p>{{ end }}
+                  <p><a href="https://g.page/Launch-and-Go?share" target="_blank">7094 Peachtree Industrial Blvd, Suite 201, Norcross, GA 30071</a></p>
+                  {{ if $footerContact.phone }}<a href="tel:{{ $footerContact.phone }}">Phone: {{ $footerContact.phone }}</a>{{ end }}<br>
+                  {{ if $footerContact.email }}<a href="mailto:{{ $footerContact.email }}">Email: {{ $footerContact.email }}</a>{{ end }}
+                  {{ if .Site.Data.home.footer.footer_text }}<p>{{ .Site.Data.home.footer.footer_text | markdownify }}</p>{{ end }}
+                  <div class="accent uk-light">
+                    {{ if $footerSocial.facebook }}<a href="{{ $footerSocial.facebook }}" class="uk-margin-small-right" uk-icon="icon: facebook; ratio: 1"></a>{{ end }}
+                    {{ if $footerSocial.instagram }}<a href="{{ $footerSocial.instagram }}" class="uk-margin-small-right" uk-icon="icon: instagram; ratio: 1"></a>{{ end }}
+                    {{ if $footerSocial.linkedin }}<a href="{{ $footerSocial.linkedin }}" class="uk-margin-small-right" uk-icon="icon: linkedin; ratio: 1"></a>{{ end }}
+                    {{ if $footerSocial.pinterest }}<a href="{{ $footerSocial.pinterest }}" class="uk-margin-small-right" uk-icon="icon: pinterest; ratio: 1"></a>{{ end }}
+                    {{ if $footerSocial.twitter }}<a href="{{ $footerSocial.twitter }}" class="uk-margin-small-right" uk-icon="icon: twitter; ratio: 1"></a>{{ end }}
+                    {{ if $footerSocial.youtube }}<a href="{{ $footerSocial.youtube }}" class="uk-margin-small-right" uk-icon="icon: youtube; ratio: 1"></a>{{ end }}
+                    {{ if $footerSocial.tiktok }}<a href="{{ $footerSocial.tiktok }}" class="uk-margin-small-right" uk-icon="icon: tiktok; ratio: 1"></a>{{ end }}
+                    {{ if $footerSocial.yelp }}<a href="{{ $footerSocial.yelp }}" class="uk-margin-small-right" uk-icon="icon: yelp; ratio: 1"></a>{{ end }}
+                </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<div class="uk-section uk-section-xsmall" style="background: #1C1C1C;">
+  <div class="uk-container uk-container-large">
+    <div class="uk-grid">
+      <div class="uk-width-1-2@s">
+          <p class="uk-light uk-text-small">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}  &middot; <a href="https://hungryram.com" target="_blank" rel="nofollow">Website Developed by Hungry Ram</a></p>
+      </div>
+      <div class="uk-width-1-2@s uk-text-right">
+        <ul class="hr-legals uk-padding-remove">
+          {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
+          <li class="uk-light uk-text-small uk-display-inline-block uk-margin-small-left"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>

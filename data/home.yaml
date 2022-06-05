@@ -1,0 +1,165 @@
+---
+gallery_section:
+  heading: Come Explore Our Workspaces in Norcross and Peachtree City
+  body_text: "[Schedule a tour](/contact)."
+  gallery:
+  - "/uploads/img_0193.jpg"
+  - "/uploads/img_0192.jpg"
+  - "/uploads/img_0191.jpg"
+  - "/uploads/img_3921.jpg"
+  - "/uploads/img_0190-1.jpg"
+  - "/uploads/img_0195.jpg"
+  - "/uploads/img_0194.jpg"
+  - "/uploads/img_3915.jpg"
+membership_options:
+  heading: Membership Options
+  body_text: |-
+    Tired of noisy coffee shops or being distracted at home? Join us at Launch and Go, where you can experience all the amenities of your own office on your schedule with none of the stress.
+
+    **To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership.
+  options:
+  - heading: Hot Desk
+    details: |-
+      INCLUDED
+
+      * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
+      * **Mail & Package Service**
+      * **4 Meeting room hours/mo**
+    price: "$175/mo"
+    link: https://members.launchandgoworkspace.com/account/memberships/change
+    subtitle: |-
+      Use any available desk in the common area
+
+      _Access 24/7_
+  - heading: Dedicated Desk
+    subtitle: |-
+      A permanent desk just for you in the common area
+
+      _Access 24/7_
+    details: |-
+      INCLUDED
+
+      * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
+      * **Mail & Package Service** Use as your official business address
+      * **4 Meeting room hours/mo**
+    price: "$225/mo"
+    link: https://members.launchandgoworkspace.com/account/memberships/change
+  - heading: Private Offices
+    details: |-
+      INCLUDED
+
+      * **Print 125 B&W, 25 Color** A la carte: B&W 5¢, Color 20¢
+      * **Mail & Package Service** Use as your official business address
+      * **4 Meeting room hours/mo**
+    price: "$350-$900/mo"
+    link: https://members.launchandgoworkspace.com/account/memberships/change
+    subtitle: |-
+      A furnished, lockable office space for 1-4 people
+
+      _Access 24/7_
+  - heading: Day Pass
+    subtitle: |-
+      Use any available desk in the common area
+
+      _1 day access, M-F, 9am-5pm_
+    details: |-
+      INCLUDED
+
+      * **Day Pass 5-Pack for $75**
+    price: "$20/day"
+    link: https://members.launchandgoworkspace.com/account/memberships/change
+  button_link: https://members.launchandgoworkspace.com/account/memberships/change
+  button_text: View All Options
+bookable_spaces:
+  heading: Our Bookable Spaces
+  body: ''
+  bookable_spaces:
+  - heading: Meeting Room
+    subtitle: Perfect for meeting clients
+    price: "$35/hr"
+    link: https://members.launchandgoworkspace.com/calendar
+    details: |-
+      INCLUDED
+
+      * **High Speed 1 Gbps WiFi Internet**
+      * **Large Flat Screen 4k TV**
+      * **HDMI Cable**
+      * **Large Wall-mounted Whiteboard**
+  - details: |-
+      INCLUDED
+
+      * **4 Microphones and Headsets**
+      * **Mixing Board**
+      * **High Speed 1 Gbps WiFi Internet**
+    heading: Podcast Studio
+    subtitle: "3 pricing options available. \n\n**Not available at Norcross**"
+    price: "$35/hr"
+    link: https://members.launchandgoworkspace.com/account/memberships/change
+  - details: |-
+      INCLUDED
+
+      * High Speed 1 Gbps WiFi Internet
+      * Coffee, Tea, Hot Chocolate and Sparkling Water
+    heading: Flex Office
+    price: "$50/day"
+    link: https://members.launchandgoworkspace.com/account/memberships/change
+    subtitle: "Private office available for the day. \n\n**Not available at Norcross**"
+footer:
+  footer_text: "Peachtree staff available Tuesday - Thursday from 10:00am - 3:00pm
+    \ \nNorcross staff available Monday - Friday from 9:00am - 5:00pm  \nCall or email
+    to schedule an office tour. Members receive 24/7 building access"
+introduction:
+  heading: Workspace **Amenities** Designed To Help Your Business Thrive
+  body: |-
+    You can choose from desks in the open works areas, private offices, a meeting room, or the podcast studio. Launch and Go has flexible, comfortable, and inspiring spaces ready whenever you are.
+
+    \*Only available at the Peachtree City location
+  image: "/uploads/img_0191.jpg"
+  amenities:
+  - Podcast Studio*
+  - Coffee, Tea & Sparkling Water
+  - Private Phone Booth*
+  - Printer, Copier & Scanner Access
+  - Secure High Speed 1 Gbps WiFi Internet
+  - Mail & Package Service
+  - 24/7 Access with Secure Keyless Entry
+  - Online Dashboard & Free App
+process:
+  heading: Our Easy **3 Step** Process
+  body: Launch and Go Workspace focuses on an easy 3 step process to help you get
+    started quickly.
+  image: "/uploads/how_it_works_book.png"
+  steps:
+  - heading: Create Your Account
+    body: Manage all your bookings & account options in your dashboard
+  - heading: Book Your Space
+    body: Select the day you'd like to grab a Hot Desk or Meeting Room.
+  - heading: Add Payment
+    body: Checkout online & you're done. It's that easy
+banner:
+  heading: A la Carte and Memberships Available
+  body: Book a room or grab a Day Pass without a membership. If you'd like to become
+    a member, see which option works for you.
+  button_link: 
+  button_label: 
+hero:
+  image: "/uploads/office3.jpg"
+  subtitle: Peachtree City, Georgia
+  heading: The Premier Coworking Space
+  body: We offer professional work spaces to fit your budget, availability & productivity
+    needs.
+  button_link: https://members.launchandgoworkspace.com/account/memberships/change
+  button_label: Book Now
+  hero_footer:
+    first_column:
+      heading: Bookable Spaces
+      body: Book one of our rooms for your next client meeting or event
+      small_text: Available by the hour or recurring.
+      link: "#bookable"
+      link_text: View Rooms
+    second_column:
+      heading: Desk Workspaces
+      body: Grab an available “hot desk” or opt for a dedicated space.
+      small_text: Available options daily or monthly.
+      link: https://launchandgoworkspace.com/#membership
+      link_text: Memberships
