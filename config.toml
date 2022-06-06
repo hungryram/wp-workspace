@@ -1,4 +1,4 @@
-baseURL = "https://www.launchandgoworkspace.com/"
+baseURL = "https://www.wpworkspaces.com/"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"
 languageCode = "en-us"
