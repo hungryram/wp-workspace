@@ -1,6 +1,6 @@
 +++
 image = "/uploads/img_0190-1.jpg"
-title = "Peachtree City"
+title = "WP Workspaces College Park"
 url = "peachtreecity"
 [bookable_spaces]
 body = ""

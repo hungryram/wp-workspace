@@ -37,6 +37,10 @@ h1.uk-text-medium-bold {
     font-weight: 600;
 }
 
+.uk-visible\@m.uk-sticky.undefined.uk-sticky-below.uk-sticky-fixed a {
+    color: #000;
+}
+
 /* NAVBAR */
 
 ul.uk-navbar-nav>li>a {
