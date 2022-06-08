@@ -1,7 +1,7 @@
 +++
 image = "/uploads/img_0190-1.jpg"
 title = "WP Workspaces College Park"
-url = "peachtreecity"
+url = "/locations/college-park"
 [bookable_spaces]
 body = ""
 heading = "Our Bookable Spaces"
@@ -26,7 +26,7 @@ subtitle = "Private office available for the day\n\n_1 day access, M-F, 9am-5pm_
 [gallery_section]
 body_text = "Stop by anytime Tuesday – Thursday, 10am-3pm for a tour or to say hello or [schedule a tour](/contact) for an after-hours tour!"
 gallery = ["/uploads/img_0190-1.jpg", "/uploads/img_0191.jpg", "/uploads/img_0192.jpg", "/uploads/img_0193.jpg", "/uploads/img_0194.jpg", "/uploads/img_0195.jpg", "/uploads/office.jpg", "/uploads/office3.jpg"]
-heading = "Come Explore Our Peachtree City Workspace"
+heading = "Come Explore Our College Park Workspace"
 [introduction]
 amenities = ["Online Dashboard & Free App", "Staffed Hours: 9am-5pm, Mon-Fri", "24/7 Access with Secure Keyless Entry", "Mail & Package Service", "Secure High Speed 1Gbps WiFi Internet", "Printer, Copier & Scanner Access", "Private Phone Booth", "Coffee, Tea & Sparkling Water", "Podcast Studio"]
 body = "Do your best work in our bright, modern spaces that are optimized to meet your professional needs. Select from beautifully designed open desks, private offices, meeting rooms, or the podcast studio. Launch and Go has flexible, comfortable, and inspiring spaces ready whenever you are, day or night."
