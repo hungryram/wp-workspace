@@ -8,7 +8,7 @@ parent = "Login"
 url = "https://synergyworkspace.app.proximity.space/login/true"
 weight = 2
 [[menu.main]]
-name = "Peachtree Login"
+name = "College Park Login"
 parent = "Login"
 url = "https://launchandgoworkspace.app.proximity.space/"
 weight = 1
