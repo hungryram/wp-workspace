@@ -15,60 +15,51 @@ membership_options:
   heading: Membership Options
   body_text: |-
     Tired of noisy coffee shops or being distracted at home? Join us at Launch and Go, where you can experience all the amenities of your own office on your schedule with none of the stress.
-
     **To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership.
   options:
   - heading: Hot Desk
     details: |-
       INCLUDED
-
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
       * **Mail & Package Service**
       * **4 Meeting room hours/mo**
     price: "$175/mo"
-    link: https://members.launchandgoworkspace.com/account/memberships/change
+    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3632
     subtitle: |-
       Use any available desk in the common area
-
       _Access 24/7_
   - heading: Dedicated Desk
     subtitle: |-
       A permanent desk just for you in the common area
-
       _Access 24/7_
     details: |-
       INCLUDED
-
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
       * **Mail & Package Service** Use as your official business address
-      * **4 Meeting room hours/mo**
+      * **2 Meeting room hours/mo**
     price: "$225/mo"
-    link: https://members.launchandgoworkspace.com/account/memberships/change
-  - heading: Private Offices
+    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3633
+  - heading: Private Office
     details: |-
       INCLUDED
-
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢, Color 20¢
       * **Mail & Package Service** Use as your official business address
       * **4 Meeting room hours/mo**
     price: "$350-$900/mo"
-    link: https://members.launchandgoworkspace.com/account/memberships/change
+    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=4071
     subtitle: |-
-      A furnished, lockable office space for 1-4 people
-
+      A furnished, lockable office space for 1-3 people
       _Access 24/7_
   - heading: Day Pass
     subtitle: |-
       Use any available desk in the common area
-
       _1 day access, M-F, 9am-5pm_
     details: |-
       INCLUDED
-
       * **Day Pass 5-Pack for $75**
     price: "$20/day"
-    link: https://members.launchandgoworkspace.com/account/memberships/change
-  button_link: https://members.launchandgoworkspace.com/account/memberships/change
+    link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3631
+  button_link: https://members.launchandgoworkspace.com/
   button_text: View All Options
 bookable_spaces:
   heading: Our Bookable Spaces
@@ -88,26 +79,14 @@ bookable_spaces:
   - details: |-
       INCLUDED
 
-      * **4 Microphones and Headsets**
-      * **Mixing Board**
-      * **High Speed 1 Gbps WiFi Internet**
-    heading: Podcast Studio
-    subtitle: "3 pricing options available. \n\n**Not available at Norcross**"
-    price: "$35/hr"
-    link: https://members.launchandgoworkspace.com/account/memberships/change
-  - details: |-
-      INCLUDED
-
       * High Speed 1 Gbps WiFi Internet
       * Coffee, Tea, Hot Chocolate and Sparkling Water
     heading: Flex Office
     price: "$50/day"
     link: https://members.launchandgoworkspace.com/account/memberships/change
-    subtitle: "Private office available for the day. \n\n**Not available at Norcross**"
+    subtitle: "Private office available for the day."
 footer:
-  footer_text: "Peachtree staff available Tuesday - Thursday from 10:00am - 3:00pm
-    \ \nNorcross staff available Monday - Friday from 9:00am - 5:00pm  \nCall or email
-    to schedule an office tour. Members receive 24/7 building access"
+  footer_text: "Staff available Monday - Friday from 9:00am - 5:00pm"
 introduction:
   heading: Workspace **Amenities** Designed To Help Your Business Thrive
   body: |-
