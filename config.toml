@@ -5,7 +5,7 @@ languageCode = "en-us"
 [[menu.main]]
 name = "Norcross Login"
 parent = "Login"
-url = "https://synergyworkspace.app.proximity.space/login/true"
+url = "https://norcross.launchandgoworkspace.com/login/true"
 weight = 2
 [[menu.main]]
 name = "College Park Login"
@@ -14,7 +14,7 @@ url = "https://launchandgoworkspace.app.proximity.space/"
 weight = 1
 [[menu.main]]
 name = "Login"
-url = "https://members.launchandgoworkspace.com/login/true"
+url = "https://norcross.launchandgoworkspace.com/login/true"
 weight = 4
 [[menu.main]]
 name = "Home"
