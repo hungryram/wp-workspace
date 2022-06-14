@@ -7,8 +7,8 @@ menu:
   - name: Login
     link: 
     menu:
-      - name: Peachtree Login
-        link: https://launchandgoworkspace.app.proximity.space/
+      - name: College Park Login
+        link: https://peachtreecity.launchandgoworkspace.com/
       - name: Norcross Login
-        link: https://synergyworkspace.app.proximity.space/login/true
+        link: https://norcross.wpworkspaces.com/login/true
         menu:

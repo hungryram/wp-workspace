@@ -1,6 +1,6 @@
 ---
 gallery_section:
-  heading: Come Explore Our Workspaces in Norcross and Peachtree City
+  heading: Come Explore Our Workspaces in Norcross and College Park
   body_text: "[Schedule a tour](/contact)."
   gallery:
   - "/uploads/img_0193.jpg"
@@ -14,7 +14,7 @@ gallery_section:
 membership_options:
   heading: Membership Options
   body_text: |-
-    Tired of noisy coffee shops or being distracted at home? Join us at Launch and Go, where you can experience all the amenities of your own office on your schedule with none of the stress.
+    Tired of noisy coffee shops or being distracted at home? Join us at WP Workspace, where you can experience all the amenities of your own office on your schedule with none of the stress.
     **To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership.
   options:
   - heading: Hot Desk
@@ -22,7 +22,7 @@ membership_options:
       INCLUDED
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢. Color 20¢.
       * **Mail & Package Service**
-      * **4 Meeting room hours/mo**
+      * **2 Meeting room hours/mo**
     price: "$175/mo"
     link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=3632
     subtitle: |-
@@ -44,7 +44,7 @@ membership_options:
       INCLUDED
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢, Color 20¢
       * **Mail & Package Service** Use as your official business address
-      * **4 Meeting room hours/mo**
+      * **2 Meeting room hours/mo**
     price: "$350-$900/mo"
     link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=4071
     subtitle: |-
@@ -64,40 +64,41 @@ membership_options:
 bookable_spaces:
   heading: Our Bookable Spaces
   body: ''
+bookable_spaces:
+  heading: Our Bookable Spaces
+  body: ''
   bookable_spaces:
   - heading: Meeting Room
-    subtitle: Perfect for meeting clients
+    subtitle: |-
+      Perfect for meeting clients
+      _Seats up to 8_
     price: "$35/hr"
-    link: https://members.launchandgoworkspace.com/calendar
+    link: https://norcross.wpworkspaces.com/
     details: |-
       INCLUDED
-
       * **High Speed 1 Gbps WiFi Internet**
       * **Large Flat Screen 4k TV**
       * **HDMI Cable**
       * **Large Wall-mounted Whiteboard**
   - details: |-
       INCLUDED
-
       * High Speed 1 Gbps WiFi Internet
       * Coffee, Tea, Hot Chocolate and Sparkling Water
     heading: Flex Office
     price: "$50/day"
-    link: https://members.launchandgoworkspace.com/account/memberships/change
-    subtitle: "Private office available for the day."
+    link: https://norcross.wpworkspaces.com/
+    subtitle: |-
+      Private office available for the day
+      _1 day access, M-F, 9am-5pm_
 footer:
   footer_text: "Staff available Monday - Friday from 9:00am - 5:00pm"
 introduction:
   heading: Workspace **Amenities** Designed To Help Your Business Thrive
   body: |-
-    You can choose from desks in the open works areas, private offices, a meeting room, or the podcast studio. Launch and Go has flexible, comfortable, and inspiring spaces ready whenever you are.
-
-    \*Only available at the Peachtree City location
+    You can choose from desks in the open works areas, private offices, a meeting room, or the podcast studio. WP Workspace has flexible, comfortable, and inspiring spaces ready whenever you are.
   image: "/uploads/img_0191.jpg"
   amenities:
-  - Podcast Studio*
   - Coffee, Tea & Sparkling Water
-  - Private Phone Booth*
   - Printer, Copier & Scanner Access
   - Secure High Speed 1 Gbps WiFi Internet
   - Mail & Package Service
@@ -105,7 +106,7 @@ introduction:
   - Online Dashboard & Free App
 process:
   heading: Our Easy **3 Step** Process
-  body: Launch and Go Workspace focuses on an easy 3 step process to help you get
+  body: WP Workspace focuses on an easy 3 step process to help you get
     started quickly.
   image: "/uploads/how_it_works_book.png"
   steps:

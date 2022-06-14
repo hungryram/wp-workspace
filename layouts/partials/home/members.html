@@ -1,5 +1,5 @@
 {{ $memberOptions := .Site.Data.home.membership_options }}
-<div class="uk-section" style="background: #fafafa">
+<div class="uk-section" id="membership" style="background: #fafafa">
   <div class="uk-container uk-container-large">
     <div class="uk-section">
       <div class="uk-flex uk-flex-middle" uk-grid>
@@ -8,7 +8,7 @@
           {{ if $memberOptions.body_text }}<p>{{ .Site.Data.home.membership_options.body_text | markdownify }}</p>{{ end }}
         </div>
         <div class="uk-width-expand@s uk-text-center">
-          <a href="" class="uk-button uk-button-secondary">View all options</a>
+          <a href="https://norcross.wpworkspaces.com/" target="_blank" class="uk-button uk-button-secondary">View all options</a>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
             </div>
             <footer class="card-footer">
               <p class="card-footer-item">{{ .price }}</p>
-              <a href="{{ .link }}" class="card-footer-item">Book</a>
+              <a href="https://norcross.wpworkspaces.com/" target="_blank" class="card-footer-item">Book</a>
             </footer>
         </div>
         {{ end }}
