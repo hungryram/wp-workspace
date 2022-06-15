@@ -12,7 +12,7 @@ gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1648077533/darr
 heading = "Come Explore Our Norcross Workspace"
 [introduction]
 amenities = ["Printer, Copier & Scanner Access", "Coffee, Tea & Sparkling Water", "Online Dashboard & Free App", "Staffed Hours: 9am-5pm, Mon-Fri", " 24/7 Access with Secure Keyless Entry", "Secure High Speed 1 Gbps WiFi Internet"]
-body = "Launch and Go Workspace provides co-working space in Norcross, GA. With a conference room that seats up to 10, and larger offices can now accommodate up to 2-4 people. We invite you to visit our Norcross location during staffing hours."
+body = "WP Workspace provides co-working space in Norcross, GA. With a conference room that seats up to 10, and larger offices can now accommodate up to 2-4 people. We invite you to visit our Norcross location during staffing hours."
 heading = "Workspace Designed to Help Your Business Thrive"
 image = ""
 [membership_options]
