@@ -34,7 +34,7 @@ heading = "## Workspace **Amenities** Designed To Help Your Business Thrive"
 image = "/uploads/img_0191.jpg"
 [membership_options]
 body_text = "Tired of noisy coffee shops or being distracted at home? Join us at WP Workspace, where you can experience all the amenities of your own office on your schedule with none of the stress.\n\n**To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership."
-button_link = "https://launchandgoworkspace.app.proximity.space/"
+button_link = "https://wpworkspacescollegepark.proximity.app/"
 button_text = "Become a member"
 heading = "Membership Options"
 [[membership_options.options]]
