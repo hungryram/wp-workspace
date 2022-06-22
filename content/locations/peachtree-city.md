@@ -29,12 +29,12 @@ gallery = ["/uploads/img_0190-1.jpg", "/uploads/img_0191.jpg", "/uploads/img_019
 heading = "Come Explore Our College Park Workspace"
 [introduction]
 amenities = ["Online Dashboard & Free App", "Staffed Hours: 9am-5pm, Mon-Fri", "24/7 Access with Secure Keyless Entry", "Mail & Package Service", "Secure High Speed 1Gbps WiFi Internet", "Printer, Copier & Scanner Access", "Coffee, Tea & Sparkling Water"]
-body = "Do your best work in our bright, modern spaces that are optimized to meet your professional needs. Select from beautifully designed open desks, private offices, meeting rooms, or the podcast studio. WP Workspace has flexible, comfortable, and inspiring spaces ready whenever you are, day or night."
+body = "Do your best work in our bright, modern spaces that are optimized to meet your professional needs. Select from beautifully designed open desks, private offices, meeting rooms, or the training room. WP Workspaces have flexible, comfortable, and inspiring spaces ready whenever you are, day or night."
 heading = "## Workspace **Amenities** Designed To Help Your Business Thrive"
 image = "/uploads/img_0191.jpg"
 [membership_options]
 body_text = "Tired of noisy coffee shops or being distracted at home? Join us at WP Workspace, where you can experience all the amenities of your own office on your schedule with none of the stress.\n\n**To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership."
-button_link = "https://wpworkspacescollegepark.proximity.app/"
+button_link = "https://wpworkspacescollegepark.proximity.app/account/memberships/change"
 button_text = "Become a member"
 heading = "Membership Options"
 [[membership_options.options]]

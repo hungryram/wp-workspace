@@ -14,7 +14,7 @@ gallery_section:
 membership_options:
   heading: Membership Options
   body_text: |-
-    Tired of noisy coffee shops or being distracted at home? Join us at WP Workspace, where you can experience all the amenities of your own office on your schedule with none of the stress.
+    Tired of noisy coffee shops or being distracted at home? Join us at WP Workspaces, where you can experience all the amenities of your own office on your schedule with none of the stress.
     **To get started, select a membership level and create your account.** Free Community Member accounts are available to everyone and can be used to purchase Day Passes or book a space on-demand without the monthly membership.
   options:
   - heading: Hot Desk
@@ -45,7 +45,7 @@ membership_options:
       * **Print 125 B&W, 25 Color** A la carte: B&W 5¢, Color 20¢
       * **Mail & Package Service** Use as your official business address
       * **2 Meeting room hours/mo**
-    price: "$350-$900/mo"
+    price: "$400-$1250/mo"
     link: https://members.launchandgoworkspace.com/account/memberships/change?mcids=4071
     subtitle: |-
       A furnished, lockable office space for 1-3 people
@@ -95,7 +95,7 @@ footer:
 introduction:
   heading: Workspace **Amenities** Designed To Help Your Business Thrive
   body: |-
-    You can choose from desks in the open works areas, private offices, a meeting room, or the podcast studio. WP Workspace has flexible, comfortable, and inspiring spaces ready whenever you are.
+    You can choose from desks in the open works areas, private offices, a meeting room, or the training room. WP Workspaces have flexible, comfortable, and inspiring spaces ready whenever you are.
   image: "/uploads/img_0191.jpg"
   amenities:
   - Coffee, Tea & Sparkling Water
