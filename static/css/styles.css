@@ -43,8 +43,10 @@ h1.uk-text-medium-bold {
 
 /* MODAL */
 
-div.uk-modal-dialog {
-    background: #eaeaea;
+div.uk-modal-dialog input,
+div.uk-modal-dialog textarea {
+    border-bottom: 1px solid black;
+    color: #000;
 }
 
 /* NAVBAR */
