@@ -34,9 +34,14 @@
                   <img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }}" width="300">
                   {{ end }}
                   <p style="margin-top: 50px; margin-bottom: 0;">WP Workspace Norcross</p>
-                  {{ if $footerContact.street_address }}<span><a href="https://goo.gl/maps/CntjepsehBDSXj7m9" target="_blank">{{ $footerContact.street_address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</a></span>{{ end }}<br><br>
+                  {{ if $footerContact.street_address }}<span><a href="https://goo.gl/maps/CntjepsehBDSXj7m9" target="_blank">{{ $footerContact.street_address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</a></span>{{ end }}
+                  <p class="uk-margin-remove">Email: <a href="mailto:pib@wpworkspaces.com">pib@wpworkspaces.com</a></p>
+                  <br><br>
                   <p class="uk-margin-remove">WP Workspace College Park</p>
-                  <span class="uk-margin-large-bottom"><a href="https://goo.gl/maps/dHgMsHkFNUntrcXNA" target="_blank">1800 Phoenix Blvd, Suite 128, Atlanta, GA 30349</a></span><br><br>
+                  <span class="uk-margin-large-bottom"><a href="https://goo.gl/maps/dHgMsHkFNUntrcXNA" target="_blank">1800 Phoenix Blvd, Suite 128, Atlanta, GA 30349</a></span>
+                  <p class="uk-margin-remove">Email: <a href="mailto:cp@wpworkspaces.com">cp@wpworkspaces.com</a></p>
+                  
+                  <br><br>
                   {{ if $footerContact.phone }}<a href="tel:{{ $footerContact.phone }}">Phone: {{ $footerContact.phone }}</a>{{ end }}<br>
                   {{ if $footerContact.email }}<a href="mailto:{{ $footerContact.email }}">Email: {{ $footerContact.email }}</a>{{ end }}
                   {{ if .Site.Data.home.footer.footer_text }}<p>{{ .Site.Data.home.footer.footer_text | markdownify }}</p>{{ end }}

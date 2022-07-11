@@ -41,6 +41,12 @@ h1.uk-text-medium-bold {
     color: #000;
 }
 
+/* MODAL */
+
+div.uk-modal-dialog {
+    background: #eaeaea;
+}
+
 /* NAVBAR */
 
 ul.uk-navbar-nav>li>a {
