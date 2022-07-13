@@ -81,6 +81,14 @@ textarea.uk-textarea {
     -webkit-appearance: none;
 }
 
+select.uk-select {
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+
 /* OVERWRITE */
 
 div.uk-overlay-primary {

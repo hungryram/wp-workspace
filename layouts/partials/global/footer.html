@@ -20,6 +20,15 @@
                           <input class="uk-input" type="text" placeholder="Email" name="Email">
                       </div>
                       <div class="uk-width-1-1">
+                        <div class="uk-margin">
+                          <select class="uk-select" name="Location inquiry" required>
+                              <option value="" selected>Choose Location</option>
+                              <option value="norcross">WP Workspace Norcross</option>
+                              <option value="college park">WP Workspace College Park</option>
+                          </select>
+                      </div>
+                      </div>
+                      <div class="uk-width-1-1">
                           <textarea class="uk-textarea" rows="5" placeholder="Your Message" name="Message"></textarea>
                       </div>
                       <div class="uk-width-1-1">
@@ -36,13 +45,14 @@
                   <p style="margin-top: 50px; margin-bottom: 0;">WP Workspace Norcross</p>
                   {{ if $footerContact.street_address }}<span><a href="https://goo.gl/maps/CntjepsehBDSXj7m9" target="_blank">{{ $footerContact.street_address }}, {{ $footerContact.city }}, {{ $footerContact.state }} {{ $footerContact.zip_code }}</a></span>{{ end }}
                   <p class="uk-margin-remove">Email: <a href="mailto:pib@wpworkspaces.com">pib@wpworkspaces.com</a></p>
+                  <p class="uk-margin-remove">Phone: <a href="tel:470-395-6163">470-395-6163</a></p>
                   <br><br>
                   <p class="uk-margin-remove">WP Workspace College Park</p>
                   <span class="uk-margin-large-bottom"><a href="https://goo.gl/maps/dHgMsHkFNUntrcXNA" target="_blank">1800 Phoenix Blvd, Suite 128, Atlanta, GA 30349</a></span>
                   <p class="uk-margin-remove">Email: <a href="mailto:cp@wpworkspaces.com">cp@wpworkspaces.com</a></p>
+                  <p class="uk-margin-remove">Phone: <a href="tel:470-590-7510">470-590-7510</a></p>
 
                   {{ if $footerContact.phone }}<a href="tel:{{ $footerContact.phone }}">Phone: {{ $footerContact.phone }}</a>{{ end }}<br>
-                  {{ if $footerContact.email }}<a href="mailto:{{ $footerContact.email }}">Email: {{ $footerContact.email }}</a>{{ end }}
                   {{ if .Site.Data.home.footer.footer_text }}<p>{{ .Site.Data.home.footer.footer_text | markdownify }}</p>{{ end }}
                   <div class="accent uk-light">
                     {{ if $footerSocial.facebook }}<a href="{{ $footerSocial.facebook }}" class="uk-margin-small-right" uk-icon="icon: facebook; ratio: 1"></a>{{ end }}
