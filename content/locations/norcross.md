@@ -17,7 +17,7 @@ heading = "Workspace Designed to Help Your Business Thrive"
 image = ""
 [membership_options]
 body_text = "We offer multiple membership plans for our Norcross location."
-button_link = "https://synergyworkspace.app.proximity.space/account/memberships/change"
+button_link = "https://norcross.wpworkspaces.com/"
 button_text = "Become a member"
 heading = "Our Plans"
 [[membership_options.options]]
