@@ -27,8 +27,8 @@ sections:
   match: "*"
   templates:
   - pages
-upload_dir: darrin-flanagan/launch-and-go-workspace
-public_path: https://res.cloudinary.com/hungryram19/image/upload
+upload_dir: uploads
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
