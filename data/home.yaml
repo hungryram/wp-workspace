@@ -3,20 +3,20 @@ gallery_section:
   heading: Come Explore Our Workspaces in Norcross and College Park
   body_text: "[Schedule a tour](/contact)."
   gallery:
-  - https://res.cloudinary.com/hungryram19/image/upload/cp-meetingroom.jpeg
-  - https://res.cloudinary.com/hungryram19/image/upload/cp-lrgoffice.jpeg
-  - https://res.cloudinary.com/hungryram19/image/upload/cp-hall.jpg
-  - https://res.cloudinary.com/hungryram19/image/upload/cp-training1.jpg
-  - https://res.cloudinary.com/hungryram19/image/upload/pib-confer1.JPG
-  - https://res.cloudinary.com/hungryram19/image/upload/pib-wall.JPG
-  - https://res.cloudinary.com/hungryram19/image/upload/cpoffice2.JPG
-  - https://res.cloudinary.com/hungryram19/image/upload/pib-hotdesk.JPG
-  - https://res.cloudinary.com/hungryram19/image/upload/cp-hotdesk2.jpeg
-  - https://res.cloudinary.com/hungryram19/image/upload/pibbar.JPG
-  - https://res.cloudinary.com/hungryram19/image/upload/cptraining2.jpeg
-  - https://res.cloudinary.com/hungryram19/image/upload/pibdesks.JPG
-  - https://res.cloudinary.com/hungryram19/image/upload/piblobby.JPG
-  - https://res.cloudinary.com/hungryram19/image/upload/cp-hotdesk.JPG
+  - "/cp-hotdesk2.jpeg"
+  - "/pibbar.JPG"
+  - "/cptraining2.jpeg"
+  - "/pibdesks.JPG"
+  - "/piblobby.JPG"
+  - "/cp-hotdesk.JPG"
+  - "/cp-meetingroom.jpeg"
+  - "/cp-lrgoffice.jpeg"
+  - "/cp-hall.jpg"
+  - "/cp-training1.jpg"
+  - "/pib-confer1.JPG"
+  - "/pib-wall.JPG"
+  - "/cpoffice2.JPG"
+  - "/pib-hotdesk.JPG"
 membership_options:
   heading: Membership Options
   body_text: |-
