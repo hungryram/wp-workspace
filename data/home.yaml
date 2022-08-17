@@ -3,14 +3,20 @@ gallery_section:
   heading: Come Explore Our Workspaces in Norcross and College Park
   body_text: "[Schedule a tour](/contact)."
   gallery:
-  - "/uploads/img_0193.jpg"
-  - "/uploads/img_0192.jpg"
-  - "/uploads/img_0191.jpg"
-  - "/uploads/img_3921.jpg"
-  - "/uploads/img_0190-1.jpg"
-  - "/uploads/img_0195.jpg"
-  - "/uploads/img_0194.jpg"
-  - "/uploads/img_3915.jpg"
+  - https://res.cloudinary.com/hungryram19/image/upload/cp-meetingroom.jpeg
+  - https://res.cloudinary.com/hungryram19/image/upload/cp-lrgoffice.jpeg
+  - https://res.cloudinary.com/hungryram19/image/upload/cp-hall.jpg
+  - https://res.cloudinary.com/hungryram19/image/upload/cp-training1.jpg
+  - https://res.cloudinary.com/hungryram19/image/upload/pib-confer1.JPG
+  - https://res.cloudinary.com/hungryram19/image/upload/pib-wall.JPG
+  - https://res.cloudinary.com/hungryram19/image/upload/cpoffice2.JPG
+  - https://res.cloudinary.com/hungryram19/image/upload/pib-hotdesk.JPG
+  - https://res.cloudinary.com/hungryram19/image/upload/cp-hotdesk2.jpeg
+  - https://res.cloudinary.com/hungryram19/image/upload/pibbar.JPG
+  - https://res.cloudinary.com/hungryram19/image/upload/cptraining2.jpeg
+  - https://res.cloudinary.com/hungryram19/image/upload/pibdesks.JPG
+  - https://res.cloudinary.com/hungryram19/image/upload/piblobby.JPG
+  - https://res.cloudinary.com/hungryram19/image/upload/cp-hotdesk.JPG
 membership_options:
   heading: Membership Options
   body_text: |-
@@ -64,9 +70,6 @@ membership_options:
 bookable_spaces:
   heading: Our Bookable Spaces
   body: ''
-bookable_spaces:
-  heading: Our Bookable Spaces
-  body: ''
   bookable_spaces:
   - heading: Meeting Room
     subtitle: |-
@@ -91,11 +94,12 @@ bookable_spaces:
       Private office available for the day
       _1 day access, M-F, 9am-5pm_
 footer:
-  footer_text: "Staff available Monday - Friday from 9:00am - 5:00pm"
+  footer_text: Staff available Monday - Friday from 9:00am - 5:00pm
 introduction:
   heading: Workspace **Amenities** Designed To Help Your Business Thrive
-  body: |-
-    You can choose from desks in the open works areas, private offices, a meeting room, or the training room. WP Workspaces have flexible, comfortable, and inspiring spaces ready whenever you are.
+  body: You can choose from desks in the open works areas, private offices, a meeting
+    room, or the training room. WP Workspaces have flexible, comfortable, and inspiring
+    spaces ready whenever you are.
   image: "/uploads/img_0191.jpg"
   amenities:
   - Coffee, Tea & Sparkling Water
@@ -106,8 +110,7 @@ introduction:
   - Online Dashboard & Free App
 process:
   heading: Our Easy **3 Step** Process
-  body: WP Workspace focuses on an easy 3 step process to help you get
-    started quickly.
+  body: WP Workspace focuses on an easy 3 step process to help you get started quickly.
   image: "/uploads/how_it_works_book.png"
   steps:
   - heading: Create Your Account
@@ -120,8 +123,8 @@ banner:
   heading: A la Carte and Memberships Available
   body: Book a room or grab a Day Pass without a membership. If you'd like to become
     a member, see which option works for you.
-  button_link: 
-  button_label: 
+  button_link: ''
+  button_label: ''
 hero:
   image: "/uploads/office3.jpg"
   subtitle: Peachtree City, Georgia
