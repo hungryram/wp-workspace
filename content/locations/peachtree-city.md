@@ -1,5 +1,5 @@
 +++
-image = "/uploads/img_0190-1.jpg"
+image = "https://res.cloudinary.com/hungryram19/v1660712133/darrin-flanagan/wp-workspace/CP_Hall.jpg"
 title = "WP Workspaces College Park"
 url = "/locations/college-park"
 [bookable_spaces]
