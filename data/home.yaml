@@ -2,7 +2,21 @@
 gallery_section:
   heading: Come Explore Our Workspaces in Norcross and College Park
   body_text: "[Schedule a tour](/contact)."
-  gallery: []
+  gallery:
+  - https://res.cloudinary.com/hungryram19/v1660712134/darrin-flanagan/wp-workspace/PIBLobby.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712135/darrin-flanagan/wp-workspace/PIBDesks.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712135/darrin-flanagan/wp-workspace/PIBBar.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712131/darrin-flanagan/wp-workspace/PIB_Wall.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712131/darrin-flanagan/wp-workspace/PIB_HotDesk.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712131/darrin-flanagan/wp-workspace/PIB_Confer1.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712134/darrin-flanagan/wp-workspace/CPTraining2.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712131/darrin-flanagan/wp-workspace/CPOffice2.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712138/darrin-flanagan/wp-workspace/CP_Training1.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712135/darrin-flanagan/wp-workspace/CP_MeetingRoom.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712135/darrin-flanagan/wp-workspace/CP_LrgOffice.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712131/darrin-flanagan/wp-workspace/CP_HotDesk2.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712133/darrin-flanagan/wp-workspace/CP_HotDesk.jpg
+  - https://res.cloudinary.com/hungryram19/v1660712133/darrin-flanagan/wp-workspace/CP_Hall.jpg
 membership_options:
   heading: Membership Options
   body_text: |-
