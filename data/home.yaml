@@ -99,7 +99,7 @@ introduction:
   body: You can choose from desks in the open works areas, private offices, a meeting
     room, or the training room. WP Workspaces have flexible, comfortable, and inspiring
     spaces ready whenever you are.
-  image: "/uploads/img_0191.jpg"
+  image: https://res.cloudinary.com/hungryram19/v1660712133/darrin-flanagan/wp-workspace/CP_Hall.jpg
   amenities:
   - Coffee, Tea & Sparkling Water
   - Printer, Copier & Scanner Access
