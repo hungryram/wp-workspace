@@ -125,7 +125,7 @@ banner:
   button_link: ''
   button_label: ''
 hero:
-  image: "/uploads/office3.jpg"
+  image: https://res.cloudinary.com/hungryram19/v1660712138/darrin-flanagan/wp-workspace/CP_Training1.jpg
   subtitle: Peachtree City, Georgia
   heading: The Premier Coworking Space
   body: We offer professional work spaces to fit your budget, availability & productivity
