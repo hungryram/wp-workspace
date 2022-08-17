@@ -2,21 +2,7 @@
 gallery_section:
   heading: Come Explore Our Workspaces in Norcross and College Park
   body_text: "[Schedule a tour](/contact)."
-  gallery:
-  - "/cp-hotdesk2.jpeg"
-  - "/pibbar.JPG"
-  - "/cptraining2.jpeg"
-  - "/pibdesks.JPG"
-  - "/piblobby.JPG"
-  - "/cp-hotdesk.JPG"
-  - "/cp-meetingroom.jpeg"
-  - "/cp-lrgoffice.jpeg"
-  - "/cp-hall.jpg"
-  - "/cp-training1.jpg"
-  - "/pib-confer1.JPG"
-  - "/pib-wall.JPG"
-  - "/cpoffice2.JPG"
-  - "/pib-hotdesk.JPG"
+  gallery: []
 membership_options:
   heading: Membership Options
   body_text: |-
