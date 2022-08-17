@@ -25,7 +25,7 @@ price = "$50/day"
 subtitle = "Private office available for the day\n\n_1 day access, M-F, 9am-5pm_"
 [gallery_section]
 body_text = "Stop by anytime Monday – Friday, 10am-4pm for a tour or to say hello or [schedule a tour](/contact) for an after-hours tour!"
-gallery = ["/uploads/img_0190-1.jpg", "/uploads/img_0191.jpg", "/uploads/img_0192.jpg", "/uploads/img_0193.jpg", "/uploads/img_0194.jpg", "/uploads/img_0195.jpg", "/uploads/office.jpg", "/uploads/office3.jpg"]
+gallery = ["https://res.cloudinary.com/hungryram19/v1660712134/darrin-flanagan/wp-workspace/CPTraining2.jpg", "https://res.cloudinary.com/hungryram19/v1660712131/darrin-flanagan/wp-workspace/CPOffice2.jpg", "https://res.cloudinary.com/hungryram19/v1660712138/darrin-flanagan/wp-workspace/CP_Training1.jpg", "https://res.cloudinary.com/hungryram19/v1660712135/darrin-flanagan/wp-workspace/CP_MeetingRoom.jpg", "https://res.cloudinary.com/hungryram19/v1660712135/darrin-flanagan/wp-workspace/CP_LrgOffice.jpg", "https://res.cloudinary.com/hungryram19/v1660712131/darrin-flanagan/wp-workspace/CP_HotDesk2.jpg", "https://res.cloudinary.com/hungryram19/v1660712133/darrin-flanagan/wp-workspace/CP_HotDesk.jpg", "https://res.cloudinary.com/hungryram19/v1660712133/darrin-flanagan/wp-workspace/CP_Hall.jpg"]
 heading = "Come Explore Our College Park Workspace"
 [introduction]
 amenities = ["Online Dashboard & Free App", "Staffed Hours: 9am-5pm, Mon-Fri", "24/7 Access with Secure Keyless Entry", "Mail & Package Service", "Secure High Speed 1Gbps WiFi Internet", "Printer, Copier & Scanner Access", "Coffee, Tea & Sparkling Water"]
