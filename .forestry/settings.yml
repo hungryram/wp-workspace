@@ -27,7 +27,7 @@ sections:
   match: "*"
   templates:
   - pages
-upload_dir: darrin-flanagan/wp-workspaces
+upload_dir: darrin-flanagan/wp-workspace
 public_path: https://res.cloudinary.com/hungryram19
 front_matter_path: ''
 use_front_matter_path: 
