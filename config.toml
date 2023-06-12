@@ -8,10 +8,6 @@ parent = "Login"
 url = "https://launchandgoworkspace.app.proximity.space/"
 weight = 1
 [[menu.main]]
-name = "Login"
-url = "https://norcross.launchandgoworkspace.com/login/true"
-weight = 4
-[[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
