@@ -3,11 +3,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = "true"
 languageCode = "en-us"
 [[menu.main]]
-name = "Norcross Login"
-parent = "Login"
-url = "https://norcross.launchandgoworkspace.com/login/true"
-weight = 2
-[[menu.main]]
 name = "College Park Login"
 parent = "Login"
 url = "https://launchandgoworkspace.app.proximity.space/"
