@@ -9,6 +9,3 @@ menu:
     menu:
       - name: College Park Login
         link: https://wpworkspacescollegepark.proximity.app/login/true
-      - name: Norcross Login
-        link: https://norcross.wpworkspaces.com/login/true
-        menu:
